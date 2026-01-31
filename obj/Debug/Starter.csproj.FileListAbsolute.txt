@@ -1,0 +1,15 @@
+D:\work\demo\WPF\Starter\obj\Debug\Starter.csproj.AssemblyReference.cache
+D:\work\demo\WPF\Starter\bin\Debug\Starter.exe
+D:\work\demo\WPF\Starter\obj\Debug\App.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Starter_MarkupCompile.cache
+D:\work\demo\WPF\Starter\obj\Debug\Starter_MarkupCompile.lref
+D:\work\demo\WPF\Starter\obj\Debug\Starter.g.resources
+D:\work\demo\WPF\Starter\obj\Debug\Starter.Properties.Resources.resources
+D:\work\demo\WPF\Starter\obj\Debug\Starter.csproj.GenerateResource.cache
+D:\work\demo\WPF\Starter\obj\Debug\Starter.csproj.CoreCompileInputs.cache
+D:\work\demo\WPF\Starter\obj\Debug\Starter.csproj.Fody.CopyLocal.cache
+D:\work\demo\WPF\Starter\obj\Debug\Starter.exe
+D:\work\demo\WPF\Starter\obj\Debug\Views\MainWindow.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Views\MainWindow.baml
+D:\work\demo\WPF\Starter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\App.baml
