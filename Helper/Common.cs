@@ -18,7 +18,7 @@ namespace Starter.Helper
             //任务栏图标
             System.Windows.Forms.NotifyIcon notifyIcon = null;
 
-            public void Icon()
+            public myIcon()
             {
                 //创建图标
                 this.notifyIcon = new System.Windows.Forms.NotifyIcon();
@@ -45,17 +45,20 @@ namespace Starter.Helper
                 }
 
                 //显示图标
-                this.notifyIcon.Visible = true;
+                //this.notifyIcon.Visible = true;
 
                 // 添加鼠标点击事件：用于左键点击打开窗口
                 this.notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(NotifyIcon_MouseClick);
 
-                //右键菜单--退出菜单项
+                //右键菜单--菜单项
+                System.Windows.Forms.MenuItem restart = new System.Windows.Forms.MenuItem("重启");
                 System.Windows.Forms.MenuItem exit = new System.Windows.Forms.MenuItem("退出");
+
                 exit.Click += new EventHandler(CloseWindow);
+                restart.Click += new EventHandler(RestartExt);
 
                 //关联托盘控件
-                System.Windows.Forms.MenuItem[] children = new System.Windows.Forms.MenuItem[] { exit };
+                System.Windows.Forms.MenuItem[] children = new System.Windows.Forms.MenuItem[] { exit, restart };
                 notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(children);
 
                 //this.notifyIcon.ShowBalloonTip(2000);
@@ -65,8 +68,18 @@ namespace Starter.Helper
             {
                 this.notifyIcon.BalloonTipTitle = title;
                 this.notifyIcon.BalloonTipText = content;
-                this.notifyIcon.Visible = true;
+                //this.notifyIcon.Visible = true;
                 this.notifyIcon.ShowBalloonTip(time);
+            }
+
+            public void ShowTray()
+            {
+                this.notifyIcon.Visible = true;
+            }
+
+            public void HideTray()
+            {
+                this.notifyIcon.Visible = false;
             }
 
             //退出菜单项对应的处理方式
@@ -76,6 +89,12 @@ namespace Starter.Helper
                 this.notifyIcon.Dispose();
                 //关闭整个程序
                 System.Windows.Application.Current.Shutdown();
+            }
+
+            public void RestartExt(object sender, EventArgs e)
+            {
+                Application.Exit();
+                System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location);
             }
 
             private void NotifyIcon_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e)

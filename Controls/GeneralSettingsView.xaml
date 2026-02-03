@@ -1,0 +1,10 @@
+﻿<UserControl
+    x:Class="Starter.Controls.GeneralSettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid>
+        <CheckBox Content="开启托盘图标" IsChecked="{Binding OpenTray}" />
+    </Grid>
+
+</UserControl>

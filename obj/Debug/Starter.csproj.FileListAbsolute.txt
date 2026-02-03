@@ -13,3 +13,9 @@ D:\work\demo\WPF\Starter\obj\Debug\Views\MainWindow.g.cs
 D:\work\demo\WPF\Starter\obj\Debug\Views\MainWindow.baml
 D:\work\demo\WPF\Starter\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\work\demo\WPF\Starter\obj\Debug\App.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\StyleSettingsView.baml
+D:\work\demo\WPF\Starter\obj\Debug\Views\SettingsWindow.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\StyleSettingsView.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Views\SettingsWindow.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Controls\GeneralSettingsView.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\GeneralSettingsView.g.cs

@@ -11,7 +11,7 @@ namespace Starter.ViewModels
     /// <summary>
     /// 主窗口视图模型
     /// </summary>
-    public class MainWindowViewModel : BindableBase
+    public class MainWindowViewModel : ViewModelBase
     {
         private readonly ConfigService _configService;
         private readonly IconService _iconService;
@@ -22,56 +22,57 @@ namespace Starter.ViewModels
         public bool IsLocked
         {
             get { return _isLocked; }
-            set { SetProperty(ref _isLocked, value); }
+            set { OnPropertyChanged("IsLocked"); }
+
         }
 
         private double _windowCornerRadius = 12;
         public double WindowCornerRadius
         {
             get { return _windowCornerRadius; }
-            set { SetProperty(ref _windowCornerRadius, value); }
+            set { OnPropertyChanged("WindowCornerRadius"); }
         }
 
         private string _windowBackground = "#CC1E1E1E";
         public string WindowBackground
         {
             get { return _windowBackground; }
-            set { SetProperty(ref _windowBackground, value); }
+            set { OnPropertyChanged("WindowBackground"); }
         }
 
         private bool _enableBlur = true;
         public bool EnableBlur
         {
             get { return _enableBlur; }
-            set { SetProperty(ref _enableBlur, value); }
+            set { OnPropertyChanged("EnableBlur"); }
         }
 
         private int _blurRadius = 20;
         public int BlurRadius
         {
             get { return _blurRadius; }
-            set { SetProperty(ref _blurRadius, value); }
+            set { OnPropertyChanged("BlurRadius"); }
         }
 
         private string _backgroundImagePath = "";
         public string BackgroundImagePath
         {
             get { return _backgroundImagePath; }
-            set { SetProperty(ref _backgroundImagePath, value); }
+            set { OnPropertyChanged("BackgroundImagePath"); }
         }
 
         private bool _useBackgroundImage;
         public bool UseBackgroundImage
         {
             get { return _useBackgroundImage; }
-            set { SetProperty(ref _useBackgroundImage, value); }
+            set { OnPropertyChanged("UseBackgroundImage"); }
         }
 
         private MenuGroup _selectedGroup;
         public MenuGroup SelectedGroup
         {
             get { return _selectedGroup; }
-            set { SetProperty(ref _selectedGroup, value); }
+            set { OnPropertyChanged("SelectedGroup"); }
         }
 
         public ObservableCollection<MenuGroup> MenuGroups { get; } = new ObservableCollection<MenuGroup>();
@@ -86,7 +87,7 @@ namespace Starter.ViewModels
 
         #endregion
 
-        public MainWindowViewModel()
+        public MainWindowViewModel() : base(null)
         {
             _configService = new ConfigService();
             _iconService = new IconService();
