@@ -1,0 +1,38 @@
+﻿<ItemsControl
+    x:Class="Starter.Controls.GridBoardControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  使用 Canvas 作为布局容器  -->
+    <ItemsControl.ItemsPanel>
+        <ItemsPanelTemplate>
+            <Canvas x:Name="PART_Canvas" />
+        </ItemsPanelTemplate>
+    </ItemsControl.ItemsPanel>
+
+
+    <ItemsControl.ItemTemplate>
+        <DataTemplate>
+            <Border
+                Margin="4"
+                Background="#330000FF"
+                CornerRadius="8">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="White"
+                    Text="{Binding}" />
+            </Border>
+        </DataTemplate>
+    </ItemsControl.ItemTemplate>
+
+
+    <!--  默认 Item 容器样式（先占位）  -->
+    <ItemsControl.ItemContainerStyle>
+        <Style TargetType="ContentPresenter">
+            <Setter Property="Width" Value="{Binding RelativeSource={RelativeSource AncestorType=ItemsControl}, Path=CellSize}" />
+            <Setter Property="Height" Value="{Binding RelativeSource={RelativeSource AncestorType=ItemsControl}, Path=CellSize}" />
+        </Style>
+    </ItemsControl.ItemContainerStyle>
+
+</ItemsControl>

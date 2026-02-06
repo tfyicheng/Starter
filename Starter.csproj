@@ -82,14 +82,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\DragAdorner.cs" />
     <Compile Include="Controls\GeneralSettingsView.xaml.cs">
       <DependentUpon>GeneralSettingsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\GridBoardControl.xaml.cs">
+      <DependentUpon>GridBoardControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GridBoardPanel.cs" />
     <Compile Include="Controls\StyleSettingsView.xaml.cs">
       <DependentUpon>StyleSettingsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\TabBarView.xaml.cs">
+      <DependentUpon>TabBarView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
     <Compile Include="Helper\WindowBlurHelper.cs" />
+    <Compile Include="Helper\WindowBlurHelper1.cs" />
     <Compile Include="Infrastructure\ViewModelBase.cs" />
     <Compile Include="Models\BackgroundSettings.cs" />
     <Compile Include="Models\GeneralSettings.cs" />
@@ -102,6 +111,11 @@
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel .cs" />
     <Compile Include="ViewModels\StyleSettingsViewModel.cs" />
+    <Compile Include="ViewModels\TabBarViewModel.cs" />
+    <Compile Include="ViewModels\TabItemViewModel .cs" />
+    <Compile Include="Views\Dialog.xaml.cs">
+      <DependentUpon>Dialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
     </Compile>
@@ -109,7 +123,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\GridBoardControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\StyleSettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TabBarView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -169,7 +195,9 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\set.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\app.png" />
     <Resource Include="Resources\close.png" />

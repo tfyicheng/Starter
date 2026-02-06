@@ -1,0 +1,26 @@
+﻿<Window
+    x:Class="Starter.Views.Dialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Starter.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Dialog"
+    Width="400"
+    Height="450"
+    AllowsTransparency="True"
+    Background="#00000000"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <!--  透明边框，圆角由系统处理  #CC1E1E1E  -->
+    <Border Background="#00000000">
+        <Border Background="#20FFFFFF" CornerRadius="8">
+            <Grid Margin="10">
+                <!--  你的内容  -->
+                <Button Width="20" Height="20">666</Button>
+            </Grid>
+        </Border>
+
+
+    </Border>
+</Window>

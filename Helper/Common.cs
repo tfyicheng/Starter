@@ -10,6 +10,12 @@ namespace Starter.Helper
     public static class Common
     {
 
+        public enum WindowVisualMode
+        {
+            Opaque,   // Color / Image
+            Blur      // Acrylic / Gaussian
+        }
+
         public static myIcon ic = new myIcon();
 
 
@@ -54,11 +60,12 @@ namespace Starter.Helper
                 System.Windows.Forms.MenuItem restart = new System.Windows.Forms.MenuItem("重启");
                 System.Windows.Forms.MenuItem exit = new System.Windows.Forms.MenuItem("退出");
 
-                exit.Click += new EventHandler(CloseWindow);
+
                 restart.Click += new EventHandler(RestartExt);
+                exit.Click += new EventHandler(CloseWindow);
 
                 //关联托盘控件
-                System.Windows.Forms.MenuItem[] children = new System.Windows.Forms.MenuItem[] { exit, restart };
+                System.Windows.Forms.MenuItem[] children = new System.Windows.Forms.MenuItem[] { restart, exit };
                 notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(children);
 
                 //this.notifyIcon.ShowBalloonTip(2000);
@@ -93,8 +100,8 @@ namespace Starter.Helper
 
             public void RestartExt(object sender, EventArgs e)
             {
-                Application.Exit();
-                System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                System.Diagnostics.Process.Start(Application.ExecutablePath);
+                System.Diagnostics.Process.GetCurrentProcess().Kill();
             }
 
             private void NotifyIcon_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e)
@@ -121,7 +128,7 @@ namespace Starter.Helper
                         {
                             if (win.IsVisible)
                             {
-                                Common.SetWindowTop("Starter.MainWindow");
+                                Common.SetWindowTop("Starter.Views.MainWindow");
                                 //win.Activate(); // 激活窗口（置于前台）
                             }
                             else
@@ -194,6 +201,48 @@ namespace Starter.Helper
             // 用于踢掉其他的在上层的窗口
             window.Topmost = true;
             window.Topmost = false;
+        }
+
+
+        /// <summary>
+        /// 设置窗体置顶
+        /// </summary>
+        /// <param name="window"></param>
+        public static void SetWindowToTopmost(bool isTop, string windowname = "Starter.Views.MainWindow")
+        {
+            try
+            {
+                foreach (var item in System.Windows.Application.Current.Windows)
+                {
+                    //Console.WriteLine(item.ToString());
+                    if (item.ToString() == windowname)
+                    {
+                        //Console.WriteLine("设置主窗体");
+                        System.Windows.Window w = (System.Windows.Window)item;
+                        w.WindowState = System.Windows.WindowState.Normal;
+                        var interopHelper = new WindowInteropHelper(w);
+                        var thisWindowThreadId = GetWindowThreadProcessId(interopHelper.Handle, IntPtr.Zero);
+                        var currentForegroundWindow = GetForegroundWindow();
+                        var currentForegroundWindowThreadId = GetWindowThreadProcessId(currentForegroundWindow, IntPtr.Zero);
+
+                        AttachThreadInput(currentForegroundWindowThreadId, thisWindowThreadId, true);
+
+                        w.Show();
+                        w.Activate();
+                        // 去掉和其他线程的输入链接
+                        AttachThreadInput(currentForegroundWindowThreadId, thisWindowThreadId, false);
+                        // 用于踢掉其他的在上层的窗口
+                        w.Topmost = isTop;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+            }
+
+
         }
 
 

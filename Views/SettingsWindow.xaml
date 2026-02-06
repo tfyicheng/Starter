@@ -24,6 +24,18 @@
     </Window.Resources>
     <Grid>
 
+        <!--<Border Name="MainBorder" CornerRadius="12" Background="#CC1E1E1E">
+            <Border.Effect>
+                <BlurEffect Radius="20"/>
+            </Border.Effect>
+            <Grid Margin="1">
+        -->
+        <!--  加1px margin避免模糊被裁剪  -->
+        <!--  你的内容  -->
+        <!--
+            </Grid>
+        </Border>-->
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="180" />
             <ColumnDefinition Width="*" />

@@ -3,31 +3,83 @@
   "WorkspaceRootPath": "D:\\work\\demo\\WPF\\Starter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\gridboardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\gridboardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\gridboardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\gridboardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\gridboardcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\gridboardcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\tabbarview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\tabbarview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\tabbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\tabbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\viewmodels\\tabbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\tabbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\dragadorner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\dragadorner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\viewmodels\\generalsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\generalsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\controls\\stylesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\stylesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\viewmodels\\settingsviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\viewmodels\\tabitemviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\tabitemviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\helper\\windowblurhelper1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:helper\\windowblurhelper1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\helper\\windowblurhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:helper\\windowblurhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\views\\dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\views\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\viewmodels\\settingsviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\settingsviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\viewmodels\\stylesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:viewmodels\\stylesettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\models\\backgroundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\models\\backgroundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:models\\backgroundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,31 +87,19 @@
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:models\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\generalsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\controls\\generalsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\generalsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\controls\\stylesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:controls\\stylesettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\models\\generalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\models\\generalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:models\\generalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\models\\windowsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\models\\windowsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:models\\windowsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\helper\\windowblurhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:helper\\windowblurhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\infrastructure\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\infrastructure\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:infrastructure\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,10 +114,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cheng\\AppData\\Local\\Temp\\.vsdbgsrc\\778c55ffe8f2d056c2b52796d26a93f5013fa72368e251bc30c15e41742718a5\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|d:\\work\\demo\\wpf\\starter\\views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:views\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|D:\\work\\demo\\WPF\\Starter\\services\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753D71DB-A13A-42FA-95B1-A8B719A38D62}|Starter.csproj|solutionrelative:services\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -89,7 +125,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,123 +145,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BackgroundSettings.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\BackgroundSettings.cs",
-              "RelativeDocumentMoniker": "Models\\BackgroundSettings.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Models\\BackgroundSettings.cs",
-              "RelativeToolTip": "Models\\BackgroundSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T06:10:48.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StyleSettingsViewModel.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\StyleSettingsViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\StyleSettingsViewModel.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\StyleSettingsViewModel.cs",
-              "RelativeToolTip": "ViewModels\\StyleSettingsViewModel.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAawH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:37:08.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GeneralSettingsViewModel.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\GeneralSettingsViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\GeneralSettingsViewModel.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\GeneralSettingsViewModel.cs",
-              "RelativeToolTip": "ViewModels\\GeneralSettingsViewModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:35:36.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Common.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Helper\\Common.cs",
-              "RelativeDocumentMoniker": "Helper\\Common.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Helper\\Common.cs",
-              "RelativeToolTip": "Helper\\Common.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T09:30:57.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwCAAAAA8AAAAAAAAAA==",
+              "Title": "GridBoardPanel.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardPanel.cs",
+              "RelativeDocumentMoniker": "Controls\\GridBoardPanel.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardPanel.cs",
+              "RelativeToolTip": "Controls\\GridBoardPanel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T03:03:34.65Z",
+              "WhenOpened": "2026-02-06T08:24:28.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GridBoardControl.xaml",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardControl.xaml",
+              "RelativeDocumentMoniker": "Controls\\GridBoardControl.xaml",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardControl.xaml",
+              "RelativeToolTip": "Controls\\GridBoardControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-06T07:45:19.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TabItemViewModel .cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\TabItemViewModel .cs",
+              "RelativeDocumentMoniker": "ViewModels\\TabItemViewModel .cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\TabItemViewModel .cs",
+              "RelativeToolTip": "ViewModels\\TabItemViewModel .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:18:50.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dialog.xaml.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\Dialog.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Dialog.xaml.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\Dialog.xaml.cs",
+              "RelativeToolTip": "Views\\Dialog.xaml.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwHwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:56:26.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T07:56:03.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
               "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwC4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T06:40:00.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SettingsManager.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\SettingsManager.cs",
-              "RelativeDocumentMoniker": "Models\\SettingsManager.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Models\\SettingsManager.cs",
-              "RelativeToolTip": "Models\\SettingsManager.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T03:22:55.11Z",
+              "WhenOpened": "2026-02-02T03:03:34.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingsViewModel .cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\SettingsViewModel .cs",
-              "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel .cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\SettingsViewModel .cs",
-              "RelativeToolTip": "ViewModels\\SettingsViewModel .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GridBoardControl.xaml.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardControl.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\GridBoardControl.xaml.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\GridBoardControl.xaml.cs",
+              "RelativeToolTip": "Controls\\GridBoardControl.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:35:08.53Z",
+              "WhenOpened": "2026-02-06T07:47:31.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GeneralSettingsView.xaml",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\GeneralSettingsView.xaml",
-              "RelativeDocumentMoniker": "Controls\\GeneralSettingsView.xaml",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\GeneralSettingsView.xaml",
-              "RelativeToolTip": "Controls\\GeneralSettingsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-03T06:01:55.428Z",
+              "Title": "TabBarViewModel.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\TabBarViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TabBarViewModel.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\TabBarViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TabBarViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:12:08.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "DragAdorner.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\DragAdorner.cs",
+              "RelativeDocumentMoniker": "Controls\\DragAdorner.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\DragAdorner.cs",
+              "RelativeToolTip": "Controls\\DragAdorner.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:37:50.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TabBarView.xaml.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\TabBarView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\TabBarView.xaml.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\TabBarView.xaml.cs",
+              "RelativeToolTip": "Controls\\TabBarView.xaml.cs",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAmwHkBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:17:12.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TabBarView.xaml",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\TabBarView.xaml",
+              "RelativeDocumentMoniker": "Controls\\TabBarView.xaml",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\TabBarView.xaml",
+              "RelativeToolTip": "Controls\\TabBarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T03:16:38.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "StyleSettingsView.xaml",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\StyleSettingsView.xaml",
               "RelativeDocumentMoniker": "Controls\\StyleSettingsView.xaml",
@@ -238,6 +311,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Common.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Helper\\Common.cs",
+              "RelativeDocumentMoniker": "Helper\\Common.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Helper\\Common.cs",
+              "RelativeToolTip": "Helper\\Common.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAMoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:30:57.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowBlurHelper.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\WindowBlurHelper.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper.cs",
+              "RelativeToolTip": "Helper\\WindowBlurHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:17:57.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WindowBlurHelper1.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper1.cs",
+              "RelativeDocumentMoniker": "Helper\\WindowBlurHelper1.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper1.cs",
+              "RelativeToolTip": "Helper\\WindowBlurHelper1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T03:50:06.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\SettingsWindow.xaml",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml",
+              "RelativeToolTip": "Views\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T06:41:35.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsWindow.xaml.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "Views\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:30:42.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BackgroundSettings.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\BackgroundSettings.cs",
+              "RelativeDocumentMoniker": "Models\\BackgroundSettings.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Models\\BackgroundSettings.cs",
+              "RelativeToolTip": "Models\\BackgroundSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:10:48.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "GeneralSettings.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\GeneralSettings.cs",
               "RelativeDocumentMoniker": "Models\\GeneralSettings.cs",
@@ -245,12 +394,11 @@
               "RelativeToolTip": "Models\\GeneralSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T09:37:44.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T09:37:44.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "WindowSetting.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\WindowSetting.cs",
               "RelativeDocumentMoniker": "Models\\WindowSetting.cs",
@@ -258,25 +406,11 @@
               "RelativeToolTip": "Models\\WindowSetting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:12:22.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T09:12:22.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WindowBlurHelper.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper.cs",
-              "RelativeDocumentMoniker": "Helper\\WindowBlurHelper.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Helper\\WindowBlurHelper.cs",
-              "RelativeToolTip": "Helper\\WindowBlurHelper.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T06:17:57.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Infrastructure\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ViewModelBase.cs",
@@ -284,24 +418,47 @@
               "RelativeToolTip": "Infrastructure\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T08:42:10.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T08:42:10.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "DocumentIndex": 20,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Models\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "Models\\SettingsManager.cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Models\\SettingsManager.cs",
+              "RelativeToolTip": "Models\\SettingsManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T03:22:55.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SettingsViewModel .cs",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\SettingsViewModel .cs",
+              "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel .cs",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\ViewModels\\SettingsViewModel .cs",
+              "RelativeToolTip": "ViewModels\\SettingsViewModel .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:35:08.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GeneralSettingsView.xaml",
+              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Controls\\GeneralSettingsView.xaml",
+              "RelativeDocumentMoniker": "Controls\\GeneralSettingsView.xaml",
+              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Controls\\GeneralSettingsView.xaml",
+              "RelativeToolTip": "Controls\\GeneralSettingsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T07:56:03.664Z",
+              "WhenOpened": "2026-02-03T06:01:55.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "FrameworkTemplate.cs",
               "DocumentMoniker": "C:\\Users\\Cheng\\AppData\\Local\\Temp\\.vsdbgsrc\\778c55ffe8f2d056c2b52796d26a93f5013fa72368e251bc30c15e41742718a5\\FrameworkTemplate.cs",
               "ToolTip": "C:\\Users\\Cheng\\AppData\\Local\\Temp\\.vsdbgsrc\\778c55ffe8f2d056c2b52796d26a93f5013fa72368e251bc30c15e41742718a5\\FrameworkTemplate.cs [\u53EA\u8BFB]",
@@ -312,20 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SettingsWindow.xaml.cs",
-              "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\SettingsWindow.xaml.cs",
-              "ToolTip": "D:\\work\\demo\\WPF\\Starter\\Views\\SettingsWindow.xaml.cs",
-              "RelativeToolTip": "Views\\SettingsWindow.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T09:30:42.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "ConfigService.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\Services\\ConfigService.cs",
               "RelativeDocumentMoniker": "Services\\ConfigService.cs",
@@ -333,12 +477,11 @@
               "RelativeToolTip": "Services\\ConfigService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T07:41:49.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T07:41:49.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -350,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\work\\demo\\WPF\\Starter\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -358,8 +501,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T07:11:38.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T07:11:38.828Z"
             }
           ]
         }

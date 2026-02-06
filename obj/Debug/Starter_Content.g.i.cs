@@ -8,9 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/app.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/close.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/lock.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/lock_open.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/set.png")]
 
 

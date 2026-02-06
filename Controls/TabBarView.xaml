@@ -1,0 +1,140 @@
+﻿<UserControl
+    x:Class="Starter.Controls.TabBarView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Starter.ViewModels"
+     GiveFeedback="OnGiveFeedback"
+    >
+
+    <Grid   x:Name="Root" PreviewMouseMove="Root_PreviewMouseMove">
+
+        <!--  Tab 列表  -->
+        <ListBox
+            x:Name="ItemsHost"
+            Background="Transparent"
+            BorderThickness="0"
+            ItemsSource="{Binding Tabs}"
+            ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+            ScrollViewer.VerticalScrollBarVisibility="Disabled"
+            SelectedIndex="{Binding SelectedIndex}"
+            VirtualizingPanel.IsVirtualizing="False">
+
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="{x:Type vm:TabItemViewModel}">
+                    <TextBlock
+                        Padding="10,3"
+                        VerticalAlignment="Center"
+                        FontSize="13"
+                        Text="{Binding Title}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Setter Property="Padding" Value="10,3" />
+                    <Setter Property="Cursor" Value="Hand" />
+
+
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border
+                                    x:Name="Bd"
+                                    Background="Transparent"
+                                    CornerRadius="8">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+
+                                    <!--  Hover  -->
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Bd" Property="Background" Value="#11000000" />
+                                    </Trigger>
+
+                                    <!--  Selected  -->
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Bd" Property="Background" Value="Transparent" />
+                                        <Setter Property="FontSize" Value="15" />
+                                        <Setter Property="Foreground" Value="pink" />
+                                    </Trigger>
+
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+
+                    <EventSetter Event="PreviewMouseLeftButtonDown" Handler="Item_PreviewMouseLeftButtonDown" />
+                    <EventSetter Event="MouseMove" Handler="Item_MouseMove" />
+                    <EventSetter Event="Drop" Handler="Item_Drop" />
+                    <Setter Property="AllowDrop" Value="True" />
+
+                    <EventSetter Event="DragEnter" Handler="Item_DragEnter" />
+                    <EventSetter Event="DragOver" Handler="Item_DragOver" />
+                    <EventSetter Event="DragLeave" Handler="Item_DragLeave" />
+
+                    <EventSetter Event="GiveFeedback" Handler="Item_GiveFeedback" />
+
+                    <!--<Setter Property="PreviewMouseLeftButtonDown" Value="Item_PreviewMouseLeftButtonDown"/>-->
+                    <EventSetter Event="PreviewMouseMove" Handler="Item_PreviewMouseMove" />
+                    <EventSetter Event="PreviewMouseLeftButtonUp" Handler="Item_PreviewMouseLeftButtonUp" />
+
+                </Style>
+
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+
+        <!--  覆盖层  -->
+        <Canvas IsHitTestVisible="False">
+
+            <!--  选中指示器  -->
+            <Border
+                x:Name="Indicator"
+                Height="40"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#1A409EFF"
+                CornerRadius="15">
+                <Border.RenderTransform>
+                    <TranslateTransform x:Name="IndicatorTransform" />
+                </Border.RenderTransform>
+            </Border>
+
+            <!--  插入线  -->
+            <Border
+                x:Name="InsertIndicator"
+                Width="2"
+                Height="26"
+                Background="#FF409EFF"
+                Visibility="Collapsed" />
+        </Canvas>
+
+        <Popup
+    x:Name="DragPopup"
+    AllowsTransparency="True"
+    IsHitTestVisible="False"
+    Placement="Relative"
+    StaysOpen="True">
+            <Border
+        CornerRadius="6"
+        Background="#DD1E88FF"
+        Padding="8"
+        Opacity="0.9"
+        RenderTransformOrigin="0.5,0.5">
+                <ContentPresenter x:Name="DragPopupContent"/>
+            </Border>
+        </Popup>
+
+    </Grid>
+</UserControl>

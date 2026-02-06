@@ -19,3 +19,9 @@ D:\work\demo\WPF\Starter\obj\Debug\Controls\StyleSettingsView.g.cs
 D:\work\demo\WPF\Starter\obj\Debug\Views\SettingsWindow.g.cs
 D:\work\demo\WPF\Starter\obj\Debug\Controls\GeneralSettingsView.baml
 D:\work\demo\WPF\Starter\obj\Debug\Controls\GeneralSettingsView.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Controls\TabBarView.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\TabBarView.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Views\Dialog.g.cs
+D:\work\demo\WPF\Starter\obj\Debug\Views\Dialog.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\GridBoardControl.baml
+D:\work\demo\WPF\Starter\obj\Debug\Controls\GridBoardControl.g.cs

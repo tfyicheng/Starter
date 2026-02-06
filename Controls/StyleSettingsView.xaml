@@ -39,18 +39,16 @@
             选择文件
         </Button>
 
-        <!--  透明度  -->
+        <!--  透明度    IsEnabled="{Binding IsNormalStyleEnabled}"  -->
         <TextBlock Text="透明度" />
         <Slider
-            IsEnabled="{Binding IsNormalStyleEnabled}"
             Maximum="1"
             Minimum="0.1"
             Value="{Binding Opacity}" />
 
-        <!--  圆角  -->
+        <!--  圆角   IsEnabled="{Binding IsNormalStyleEnabled}"  -->
         <TextBlock Text="圆角半径" />
         <Slider
-            IsEnabled="{Binding IsNormalStyleEnabled}"
             Maximum="40"
             Minimum="0"
             Value="{Binding CornerRadius}" />

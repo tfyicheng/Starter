@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\work\demo\WPF\Starter\App.xaml
-4-569890195
+7-1358619291
 
-291189744661
+371441088038
 20-593811495
-Controls\GeneralSettingsView.xaml;Controls\StyleSettingsView.xaml;Views\MainWindow.xaml;Views\SettingsWindow.xaml;
+Controls\GeneralSettingsView.xaml;Controls\GridBoardControl.xaml;Controls\StyleSettingsView.xaml;Controls\TabBarView.xaml;Views\Dialog.xaml;Views\MainWindow.xaml;Views\SettingsWindow.xaml;
 
 False
 
